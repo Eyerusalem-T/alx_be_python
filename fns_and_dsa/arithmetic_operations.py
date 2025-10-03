@@ -1,17 +1,5 @@
-def perform_operation(num1: float, num2: float, operation: str) -> float:
-    """
-    Perform a mathematical operation on two numbers.
-
-    Args:
-        num1 (float): The first number.
-        num2 (float): The second number.
-        operation (str): The operation to perform ('add', 'subtract', 'multiply', 'divide').
-
-    Returns:
-        float: The result of the operation, or an error message.
-    """
+def perform_operation(num1, num2, operation):
     
-    # Check for the implementation of an operation chosen
     if operation == 'add':
         return num1 + num2
     elif operation == 'subtract':
